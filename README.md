@@ -1,1 +1,4 @@
 # Caesar-Cipher
+This code is a basic implementation of a Caesar Cipher, which is a type of substitution cipher that replaces each letter in a plaintext with a letter that is a fixed number of positions down the alphabet. The user is prompted to enter a string of text to be encoded or decoded, as well as an option to select whether to encode or decode the text and the number of positions to shift the letters by.
+
+The code then splits the user's text into a list of individual letters and finds the index of each letter in the "CHARACTERS" list. It then modifies the index of each letter based on the user's selected option (encoding or decoding) and the specified shift value, and uses the modified indexes to retrieve the corresponding characters from the "CHARACTERS" list. The resulting list of characters is then joined into a single string, which is printed as the encoded or decoded text.
